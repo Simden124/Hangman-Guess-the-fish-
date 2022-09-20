@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <title>Hängagubbe</title>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="text-center">Hängagubbe</h1>
+  <h2 class="text-center">Välkommen till gissa fisken!</h2>
+  <div class="float-right">Fel bokstav: <span id='mistakes'>0</span> av <span id='maxWrong'></span></div>
+  <div class="text-center">
+    
+    <img id='gubbepic' src="./images/h0.png" alt="">
+    <p>Gissa fisken:</p>
+    <p id="wordSpotlight">Här visas ordet som ska gissas!</p>
+    <div id="keyboard"></div>
+    <button class="btn btn-info" onClick="reset()">Starta om</button>
+  
+</div> 
+</div>
+
+<script src='./js/script.js'></script>
+
+</body>
+</html>
